@@ -1,0 +1,18 @@
+.question
+{
+
+    width:100%;
+
+    display: none;
+
+}
+.show{
+    display: block;
+}
+.spacer{
+    margin:40px;
+}
+.bgpurple
+{
+    background-color: purple;
+}

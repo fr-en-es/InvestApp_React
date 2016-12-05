@@ -1,0 +1,45 @@
+{
+  "questions": [{
+    "text": "This account is for",
+    "options": {
+      "type": "singleselect",
+      "values": [{
+        "id": "For Me",
+        "label": "For Me"
+      }, {
+        "id": "no",
+        "label": "For My Partner"
+      }]
+    },
+    "key": "q1"
+  }, {
+    "text": "I am investing for",
+    "options": {
+      "type": "singleselect",
+      "values": [{
+        "id": "Yes",
+        "label": "Retirement"
+      }, {
+        "id": "no",
+        "label": "Something Else"
+      }]
+    },
+    "key": "q2"
+  }, {
+    "text": "and my preferred account type",
+    "options": {
+      "type": "singleselect",
+      "values": [{
+        "id": "TaxAdvantage",
+        "label": "Tax Advantage"
+      }, {
+        "id": "no",
+        "label": "Taxable"
+      }]
+    },
+    "key": "q3"
+  }],
+  "result":[
+          {"10":{"message":"Based on your profile and goals are here is the recommendation", "chartdata":{}}}
+  ]
+}
